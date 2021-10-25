@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <link 
+  href="https://fonts.googleapis.com/css?family=Press+Start+2P" 
+  rel="stylesheet"
+/>
+ <title>Змейка!</title>
+</head>
+<body>
+    <div class="main">
+	<div class = "padi">
+        <h1>Snake</h1>
+	
+
+	<canvas id ="canvas" width="300" height="300"  ></canvas>
+</div>
+<div class="buttons">
+    <input type="button" class="left" onclick="moveLeft()" value="LEFT">
+    <div class="upDown">
+    <input type="button" class="up" onclick="moveUp()" value="UP">
+    <input type="button" class="down" onclick="moveDown()" value="DOWN">
+</div>
+    <input type="button" class="right" onclick="moveRight()" value="RIGHT">
+    
+</div>
+<div class="reset">
+    <input type="button" class="btn_reset" onclick="location.reload();" value="RESET">
+</div>
+</div>
+	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
