@@ -23,7 +23,7 @@ let score = 0;
 // Выводим счет игры в левом верхнем углу
 let drawScore =  () =>{
  ctx.font = "20px bold";
- ctx.fillStyle = "Black";
+ ctx.fillStyle = "DarkRed";
  ctx.textAlign = "left";
  ctx.textBaseline = "top";
  ctx.fillText("SCORE: " + score, blockSize, blockSize);
