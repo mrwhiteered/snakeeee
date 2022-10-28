@@ -88,6 +88,8 @@ Snake.prototype.draw = function () {
     for (let i = 0; i < this.segments.length; i++) {
         this.segments[0].drawSquare("white");
 
+
+
         this.segments[i].drawSquare("DarkRed");
     }
 };
